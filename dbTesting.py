@@ -38,6 +38,6 @@ rows = execute_query("""
 """)
 
 for row in rows:
-    print(row[0], row[1], row[2], row[3])
+    print(row[0], row[1], row[2], row[3], row[4])
 
 # TODO: Exercise 1 — modify the query above to also return the Milliseconds column
